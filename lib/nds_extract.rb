@@ -4,7 +4,10 @@ require 'directors_database'
 def directors_totals(nds)
   result = {}
   
+  outermost_array_count = 0
   
+  while outermost_array_count < nds.length do
+  end
   
   
   result
