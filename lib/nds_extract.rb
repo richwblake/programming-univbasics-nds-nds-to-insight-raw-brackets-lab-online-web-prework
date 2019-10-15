@@ -12,6 +12,13 @@ def directors_totals(nds)
     result["Stephen Spielberg"] += nds[0][:movies][movie_index][:worldwide_gross]
     movie_index += 1
   end
+  
+   movie_index = 0
+  
+  while movie_index < nds[1][:movies].length do
+    result["Russo Brothers"] += nds[1][:movies][movie_index][:worldwide_gross]
+    movie_index += 1
+  end
 
   
   
