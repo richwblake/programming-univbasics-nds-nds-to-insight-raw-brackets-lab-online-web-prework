@@ -12,6 +12,7 @@ def directors_totals(nds)
     result["Stephen Spielberg"] += nds[0][:movies][movie_index][:worldwide_gross]
     movie_index += 1
   end
+
   
   
   result
