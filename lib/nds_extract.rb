@@ -27,6 +27,13 @@ def directors_totals(nds)
     result["Russo Brothers"] += nds[1][:movies][movie_index][:worldwide_gross]
     movie_index += 1
   end
+  
+  movie_index = 0
+  
+  while movie_index < nds[2][:movies].length do
+    result["James Cameron"] += nds[2][:movies][movie_index][:worldwide_gross]
+    movie_index += 1
+  end
 
   
   
