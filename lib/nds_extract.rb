@@ -73,7 +73,7 @@ def directors_totals(nds)
   movie_index = 0
   
   while movie_index < nds[8][:movies].length do
-    result["Robert Zemeckis"] += nds[8][:movies][movie_index][:worldwide_gross]
+    result["Francis Ford Coppola"] += nds[8][:movies][movie_index][:worldwide_gross]
     movie_index += 1
   end
   
