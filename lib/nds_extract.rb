@@ -3,7 +3,7 @@ require 'directors_database'
 
 def directors_totals(nds)
   result = {
-    
+    "Stephen Spielberg" => nil
   }
   
   movie_index = 0
