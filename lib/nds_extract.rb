@@ -63,6 +63,13 @@ def directors_totals(nds)
     movie_index += 1
   end
   
+  movie_index = 0
+  
+  while movie_index < nds[7][:movies].length do
+    result["Martin Scorsese"] += nds[7][:movies][movie_index][:worldwide_gross]
+    movie_index += 1
+  end
+  
   
   result
 end
