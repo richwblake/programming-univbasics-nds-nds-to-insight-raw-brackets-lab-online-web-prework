@@ -76,7 +76,5 @@ def directors_totals(nds)
     result["Francis Ford Coppola"] += nds[8][:movies][movie_index][:worldwide_gross]
     movie_index += 1
   end
-  
-  
   result
 end
