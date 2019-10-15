@@ -4,12 +4,10 @@ require 'directors_database'
 def directors_totals(nds)
   result = {}
   
-  outermost_array_count = 0
+  movie_index = 0
   
-  while outermost_array_count < nds.length do
-    films_count = 0
-    while films_count < nds[outermost_array_count][]
-    outermost_array_count += 1
+  while movie_index < nds[0][]
+    
   end
   
   
