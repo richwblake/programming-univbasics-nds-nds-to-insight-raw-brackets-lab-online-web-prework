@@ -10,7 +10,6 @@ def directors_totals(nds)
   
   while movie_index < nds[0][:movies].length do
     result["Stephen Spielberg"] += nds[0][:movies][movie_index][:worldwide_gross]
-    puts result["Stephen Spielberg"]
     movie_index += 1
   end
   
