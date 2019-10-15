@@ -7,7 +7,8 @@ def directors_totals(nds)
   outermost_array_count = 0
   
   while outermost_array_count < nds.length do
-    
+    director_hash_count = 0
+    while 
     outermost_array_count += 1
   end
   
